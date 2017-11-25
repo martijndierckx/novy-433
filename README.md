@@ -21,7 +21,7 @@ See http://wiringpi.com/pins/ for the correct WiringPi pin number. Pin 15 (BCM 1
 $ git clone https://github.com/martijndierckx/novy-433.git
 $ cd novy-433
 $ cp config_sample.json config.json
-$ npm install -d
+$ npm install
 ```
 
 
