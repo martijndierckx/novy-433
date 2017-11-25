@@ -4,6 +4,7 @@
 
 
 ## Dependencies
+  - nodeJS : https://nodejs.org
   - WiringPi : https://projects.drogon.net/raspberry-pi/wiringpi/
 
 
