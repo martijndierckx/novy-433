@@ -1,0 +1,26 @@
+<html>
+<body style="margin:200px 0; padding:0; text-align:center;">
+
+    <a href="#" onclick="javascript:call('/toggle-lights');" style="display:inline-block;">lights</a>
+    <br />
+    <a href="#" onclick="javascript:call('/power-up');" style="display:inline-block;">power up</a>
+    <br />
+    <a href="#" onclick="javascript:call('/power-down');" style="display:inline-block;">power down</a>
+    <br />
+    <a href="#" onclick="javascript:call('/toggle-power')" style="display:inline-block;">power</a>
+    <br />
+    <a href="#" onclick="javascript:call('/toggle-ambient-lights');" style="display:inline-block;">toggle ambient lights</a>
+
+	<script>
+
+		function call(url) {
+			var oReq = new XMLHttpRequest();
+			oReq.open('GET', url + '?' + new Date().getTime(), true);
+			oReq.responseType = 'json';
+			oReq.send();
+		}
+
+	</script>
+
+</body>
+</html>

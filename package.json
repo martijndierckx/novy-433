@@ -1,0 +1,34 @@
+{
+  "name": "novy-433",
+  "version": "0.0.1",
+  "description": "A node webservice that exposes GET routes which match the commands of the Novy cooker hood remote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "mkdir ./build && cd ./src && /usr/bin/make"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "author": "Martijn Dierckx",
+  "keywords": [
+    "raspberry",
+    "rpi",
+    "raspi",
+    "domotic",
+    "domotica",
+    "433mhz",
+    "novy",
+    "remote",
+    "nodejs",
+    "wiringpi",
+    "rc",
+    "gpio",
+    "433"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martijndierckx/node-433.git"
+  },
+}
