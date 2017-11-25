@@ -9,7 +9,7 @@ A node webservice that exposes GET routes which match the commands of the Novy c
 
 
 ## Connecting the 433Mhz transmitter
-![Transmitter pins](https://raw.githubusercontent.com/martijndierckx/novy-433/master/transmitter-pins.jpg =250x)
+<img src="https://raw.githubusercontent.com/martijndierckx/novy-433/master/transmitter-pins.jpg" width="250">
 
 See http://wiringpi.com/pins/ for the correct WiringPi pin number. Pin 15 (BCM 14) is the default transmitter pin.
 > The transmitter may be powered by 5V, but if you also want to connect a receiver, make sure you connect it to a 3.3V power source.
