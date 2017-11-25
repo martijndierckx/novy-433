@@ -13,7 +13,7 @@ const emit = function(command) {
 	exec([__dirname + '/build/codesend',
 		'--code',			command.code,
 		'--pin',				config.gpio.pin,
-		'--pulse-length', config.gpio.pulseLength
+		'--pulse-length',	config.gpio.pulseLength
 	].join(' '), function (error, stdout, stderr) {
 		error = error || stderr;
 		if(error) { console.warn(error); }
@@ -37,7 +37,7 @@ config.commands.forEach(function(command) {
 
 /* Expose index.html for easy testing */
 app.get('/', function(req, res) {
-		res.sendFile(__dirname + '/index.html');
+	res.sendFile(__dirname + '/index.html');
 });
 
 /* Start Express server */
