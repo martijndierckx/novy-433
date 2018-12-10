@@ -32,7 +32,7 @@ After copying the ***config_sample.json*** file to ***config.json***, you can ad
 ## Running
 
 ```sh
-$ node app
+$ node index
 ```
 > To run this thing as a service, have a look on https://stackoverflow.com/questions/4681067/how-do-i-run-a-node-js-application-as-its-own-process/28542093#28542093
 
